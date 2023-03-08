@@ -94,7 +94,7 @@ input{
 	height: 100px;
 	width: 100px;
 	border-radius: 100px;
-	background-image: url(img/login.jpg);
+	background-image: url(pedro-henrique-s.github.io/img/login.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -121,7 +121,7 @@ footer{
 	border: 1px solid transparent;
 	color: white;
 	text-align: center;
-	background-image: url(img/dark_mundi3.png);
+	background-image: url(pedro-henrique-s.github.io/img/dark_mundi3.png);
 	backgrowund: linear-gradient(#202020, #101010);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -131,7 +131,7 @@ footer{
 	height: 800px;
 	width: 95%;
 	margin: -0px auto;
-	background-image: url(img/oldmap.png);
+	background-image: url(pedro-henrique-s.github.io/img/oldmap.png);
 	background-position: center;
 	background-size: 90%;
 	background-repeat: no-repeat;
