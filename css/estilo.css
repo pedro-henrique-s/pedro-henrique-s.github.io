@@ -1,0 +1,63 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #1C1C1C;
+}
+p{
+	font-family: Agency FB;
+	font-size: 22px;
+}
+
+/* ------------------------- HEADER ------------------------- */
+header{
+	border: 0px solid red;
+	height: 120px;
+}
+header h1{
+	font-family: Agency FB;
+	font-size: 300%;
+	color: white;
+	float: left;
+	margin-left: 8%;
+}
+/* ------------------------- HEADER ------------------------- */
+/* -------------------------  MENU ------------------------- */
+
+.menu ul{
+	list-style: none;
+	float: right;
+	margin-right: 8%;
+	line-height: 90px;
+}
+.menu li{
+	display: inline;
+	border: 0px solid red;
+}
+.menu a{
+	border: 0px solid red;
+	text-decoration: none;
+	font-family: Agency FB;
+	padding: 15px;
+	font-size: 150%;
+	color: #fff
+}
+a:hover{color: #505050}
+
+
+
+/* -------------------------  MENU ------------------------- */
+/* -------------------------SECTION ------------------------- */
+
+.img_bg{
+	border: 0px solid red;
+	width: 95%;
+	padding-left: 15%;
+	height: 1000px;
+	margin: -120px auto;
+	background-image: url(img/mapi.png);
+	background-size: 90%;
+	background-repeat: no-repeat;
+}
+
+/* -------------------------SECTION ------------------------- */
+
