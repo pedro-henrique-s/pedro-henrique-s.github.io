@@ -47,13 +47,19 @@ a:hover{color: #505050}
 
 /* -------------------------  MENU ------------------------- */
 /* -------------------------SECTION ------------------------- */
-.imagem_mapa{
+.bg{
 	border: 1px solid red;
 	width: 99%;
 	height: 1000px;
 	margin: -120px auto;
-	margin-top: 0px;
-	background-image: url(img/bgmap.png);
+}
+	
+.img{
+	border: 1px solid blue;
+	width: 100%;
+	margin: 0px auto;
+	height: 1000px;
+	background-image: url(img/mapafinal.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
