@@ -48,14 +48,14 @@ a:hover{color: #505050}
 /* -------------------------  MENU ------------------------- */
 /* -------------------------SECTION ------------------------- */
 .bg{
-	border: 1px solid red;
+	border: 0px solid red;
 	width: 99%;
 	height: 1000px;
 	margin: 0px auto;
 }
 	
 .img{
-	border: 1px solid blue;
+	border: 0px solid blue;
 	width: 100%;
 	margin: 0px auto;
 	height: 1000px;
