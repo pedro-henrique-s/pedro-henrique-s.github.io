@@ -47,17 +47,15 @@ a:hover{color: #505050}
 
 /* -------------------------  MENU ------------------------- */
 /* -------------------------SECTION ------------------------- */
-
-.img_bg{
-	border: 0px solid red;
-	width: 95%;
-	padding-left: 15%;
+.imagem_mapa{
+	border: 1px solid red;
+	width: 99%;
 	height: 1000px;
 	margin: -120px auto;
-	background-image: url(img/mapi.png);
-	background-size: 90%;
+	margin-top: 0px;
+	background-image: url(img/bgmap.png);
+	background-size: cover;
 	background-repeat: no-repeat;
 }
-
 /* -------------------------SECTION ------------------------- */
 
