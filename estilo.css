@@ -51,7 +51,7 @@ a:hover{border-bottom: 1px solid #fff;
 .bg{
 	border: 0px solid red;
 	width: 99%;
-	height: 1000px;
+	height: 800;
 	margin: -150px auto;
 }
 	
@@ -59,7 +59,8 @@ a:hover{border-bottom: 1px solid #fff;
 	border: 0px solid blue;
 	width: 100%;
 	margin: -100px auto;
-	height: 1000px;
+	margin-left: 20px;
+	height: 800px;
 	background-image: url(img/mapafinal.png);
 	background-size: 95%;
 	background-repeat: no-repeat;
