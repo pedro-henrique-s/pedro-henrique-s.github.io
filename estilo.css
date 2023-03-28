@@ -58,10 +58,10 @@ a:hover{border-bottom: 1px solid #fff;
 .img{
 	border: 0px solid blue;
 	width: 100%;
-	margin: -50px auto;
+	margin: 0px auto;
 	height: 1000px;
 	background-image: url(img/mapafinal.png);
-	background-size: 90%;
+	background-size: 50%;
 	background-repeat: no-repeat;
 }
 /* -------------------------SECTION ------------------------- */
