@@ -1,7 +1,7 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	background-color: #0f161a;
+	background-color: #101010;
 }
 p{
 	font-family: Agency FB;
@@ -10,60 +10,65 @@ p{
 
 /* ------------------------- HEADER ------------------------- */
 header{
-	border: 0px solid red;
-	height: 120px;
+	border: 1px solid transparent;
+	height: 165px;
+	width: 100%;
+	background-color: #101010;
+	text-align: center;
 }
-header h1{
+header h1 a{
 	font-family: Agency FB;
-	font-size: 300%;
+	border: 1px solid transparent;
+	font-size: 180%;
+	text-decoration: none;
 	color: white;
-	float: left;
-	margin-left: 8%;
+	
 }
-/* ------------------------- HEADER ------------------------- */
-/* -------------------------  MENU ------------------------- */
+h1 a:hover{}
 
-.menu ul{
-	list-style: none;
-	float: right;
-	margin-right: 8%;
-	line-height: 90px;
+#reinos{
+	border: 1px solid transparent;
+	margin-top: -50px;
+	height: 50px;
+	min-width: 1300px;
+
 }
-.menu li{
+#reinos ul{
+	border: 0px solid #505050;
+	margin-left: -30px;
+	list-style: none;
+	line-height: 0px;
+	margin-top: 25px;
+	text-align: center;
+}
+#reinos li{
 	display: inline;
 	border: 0px solid red;
+
 }
-.menu a{
-	border: 0px solid red;
+#reinos a{
+	border-top: 0px solid #505050;
+	border-left: 0px solid #303030;
 	text-decoration: none;
 	font-family: Agency FB;
-	padding: 15px;
-	font-size: 150%;
+	font-weight: 800;
+	padding: 0.5%;
+	font-size: 130%;
 	color: #909090
 }
-a:hover{border-bottom: 1px solid #fff;
-	color: #fff}
-
-
-
-/* -------------------------  MENU ------------------------- */
-/* -------------------------SECTION ------------------------- */
-.bg{
-	border: 0px solid red;
-	width: 99%;
-	height: 1000px;
-	margin: -150px auto;
+#reinos a:hover{
+	color: #fff;
+	background-color: #202020;
 }
-	
-.img{
-	border: 0px solid blue;
+.mark{
+	background-color: #202020;
+}
+
+/* -------------------------SECTION ------------------------- */
+section{
+	border:0px solid red;
 	width: 100%;
-	margin: -100px auto;
-	margin-left: 20px;
-	height: 1000px;
-	background-image: url(img/mapafinal.png);
-	background-size: 95%;
-	background-repeat: no-repeat;
+	height: 600px;
 }
 /* -------------------------SECTION ------------------------- */
 
