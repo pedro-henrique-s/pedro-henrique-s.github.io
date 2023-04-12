@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8">
-<script>window.onload = function() {setInterval(function() {location.reload(); } , 100000);};</script>
+<script>window.onload = function() {setInterval(function() {location.reload(); } , 12000);};</script>
 <link rel="stylesheet" type="text/css" href="estilo.css">
 <head>
-	<title>Inicio</title>
+	<title>Ano Mundi</title>
 </head>
 <style type="text/css">
 	body{
 		background-image: url(img/mapafinal.png);
+		background-color: #050505;
 		background-size: 85%;
 		background-repeat: no-repeat;
 		background-position: 130px 90px;
 	}
+	header h1{
+	background-color: #101010;
+	height: 180px;
+	width: 101%;
+	position: fixed;
+	left: 50%;
+    transform: translate(-49.9%, 0);
+}
+#menu{
+	position: fixed;
+	border: 0px solid red;
+	margin: 156px auto;
+	height: 50px;
+	min-width: 1300px;
+	left: 50%;
+    transform: translate(-50.7%, 0);
+order: 2
+}
 </style>
 <body>
+<div id="zoom">
+<header>
+		<h1 class="primeirapag"><a href="index.html">ANO MUNDI</a></h1>
+	
 
-	<header>
-		<h1><a href="index.html">ANO MUNDI</a></h1>
-		
-	</header>
-		<div id="reinos">
+	<div id="menu">
 		<ul>
 					<li><a href="index.html">DITAH-DURAN/DEMON-CRATOS</a></li>
 					<li><a href="">VECKOS</a></li>
@@ -31,15 +50,14 @@
 					<li><a href="">EMARANHADO</a></li>
 					<li><a href="">SACRO TERRITORIO DE...</a></li>
 					<li><a href="">DESFILADEIRO</a></li>
-					<li><a href="santoarayo.html">SANTO ARAYO</a></li>
+					<li><a href="santoarayo_biomas.html">SANTO ARAYO</a></li>
 				</ul>
 	</div>
-	
-
+</header>
 	<section>
-	
+		<div class="caixa"></div>
 	</section>
 
-	<footer></footer>
+	<footer></footer></div>
 </body>
 </html>
