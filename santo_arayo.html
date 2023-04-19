@@ -1,0 +1,1078 @@
+<!DOCTYPE html><html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>$('#exampleModal').on('show.bs.modal', function (event) {
+      var button = $(event.relatedTarget) // Button that triggered the modal
+      var recipient = button.data('whatever') // Extract info from data-* attributes
+      // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+      // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+      var modal = $(this)
+      modal.find('.modal-title').text('New message to ' + recipient)
+      modal.find('.modal-body input').val(recipient)
+    })</script>
+<title>Santo Arayo</title>
+</head>
+
+<style>
+
+  body {
+    zoom: 80%;
+}
+  body {
+    background-color: rgb(49, 49, 49);
+    background-image: url(img/9b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+  }
+  
+  .navbar {
+    border: 0;
+    padding: 10px 35px 0;
+    height: 110px;
+    background-color: rgba(19, 19, 19, 0.5);
+    backdrop-filter: blur(10px);
+    backdrop-filter: saturation(0%);
+  }
+  
+  .navbar-toggler {
+    margin-top: 10px;
+  }
+  
+  .centralizar_navbar {
+    border: 0;
+    margin: 0 auto;
+  }
+  
+  .navbartitle {
+    padding: 0;
+    border: 0;
+    float: left;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: -8px;
+    line-height: 60px;
+  }
+  
+  .navbar-brand {
+    font-size: 300%;
+    font-family: Agency FB;
+    font-weight: 800;
+  }
+  
+  .navbar-nav li {
+    border: 0;
+    text-align: center;
+    padding: 0 -3% -3% 0;
+    margin: 0;
+  }
+  
+  .navbar-nav li a {
+    font-size: 93%;
+    border-radius: 0;
+    border-left: 1px solid #292929;
+    text-transform: uppercase;
+  }
+  
+  .navbar-nav li a:hover {
+    border: 0;
+    background-color: rgba(53, 53, 53, 0.616);
+  }
+  .menu-marcado a {background-color: #303030;
+  }
+  .nome_reino{
+    margin-top: 120px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: aliceblue;
+  }
+  .nome_reino h6 {
+    margin-top: -10px;
+    font-size: 95%;
+  }
+  section{
+    border: 0px solid red;
+    margin: 20px ;
+    margin-top: 50px;
+    height: 1000px;
+    width: 15%;
+  }
+.btn{
+  border: 0px solid rgb(115, 255, 0);
+  color: rgb(0, 0, 0);
+  font-weight: 800px;
+  font-size: 90%;
+  width: 100%;
+  margin-bottom: -17px;
+  text-decoration: none;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.btn p{
+ text-align: center;
+ line-height: 35px;
+}
+.card-header{
+  padding: -0px 0px 0px 0px;
+  height: 40px;
+   border-radius: 0px;
+
+}
+.btn p {
+  text-decoration: none;
+  color: #fffdfb;
+}
+ #accordion .card{
+  background-color: #1b1b1bf6;
+}
+.card-body{
+  background-color: #242424;
+
+  padding: 0px;
+}
+.modal-title{
+
+  margin: 0px 44% 0px 36%;
+  font-weight: 900;
+  font-size: 180%;
+}
+
+ .card-body .btn {
+  border-top: 1px solid rgba(0, 0, 0, 0.176);
+  width: 100%;
+  height: 45px;
+  border-radius: 0px;
+  background-color: #444444;
+  color:  #fff;
+  font-weight: 600;
+  font-size: 90%;
+}
+.card-body .btn:hover{
+
+  background-color: #0000003c;
+  color: white;
+}
+.card-body .btn:active{
+
+background-color: #0c0c0cc4;
+color: white;
+}
+.modal-header h5{
+  border: 0px solid red;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.modal-header{
+  border: 0px solid rgb(0, 132, 255);
+}
+.modal-body{
+  padding: 0px;
+
+}
+.modal-footer{
+  padding: 0px;
+  color: #fff;
+}
+.modal-footer .btn{
+  margin-top: -2px;
+  background-color: #831c1c;
+  padding: 0px;
+  color: #fff;
+}
+.modal-footer .btn:hover{
+  background-color: #440000;
+  color: #fffdfb;
+  padding: 0px;
+}
+.modal-content{
+
+  border: 0px solid red;
+  color: white;
+  height: 44em;
+  background-color: #131313;
+}
+.FECHAR{
+  border: 0px solid red;
+  background-color: rgb(247, 247, 247);
+  font-weight: 800;
+  border-radius: 0px;
+  position: relative;
+  margin: 0px -10px 0px 0px;
+}
+.modal-dialog{
+  border: 0px solid red;
+  width: 80%;
+}
+.img-conteudo{
+  margin-top: -3px;
+  border: 0px solid red;
+  height: 400px;
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+overflow: hidden;
+}
+.img-conteudo img{
+
+  width: 100%;
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+overflow: hidden;
+}
+.texto-conteudo{
+ padding: 10px 10px 10px 10px;
+ justify-content: center;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 130%;
+}
+.modal {
+background-color: rgba(0, 0, 0, 0.397) !important;
+backdrop-filter: blur(10px);
+}
+.modal.fade{
+  border: 0px solid red;
+}
+.modal-backdrop.fade{
+  background-color: #ffffff00;
+  width: 1px;
+  zoom: 100%;
+}
+</style> 
+
+
+
+
+<!-- FIM DO CSS INICIO DO NAVBAR -->
+
+
+
+
+
+<body>
+  
+    <nav class="navbar fixed-top navbar-expand-lg navbar"  data-bs-theme="dark">
+      <div class="centralizar_navbar">
+        <div class="container-">
+          <div class="navbartitle">
+            <a class="navbar-brand"  href="index.html">ANO MUNDI</a>
+            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="menu"itens collapse navbar-collapse"  id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#">DitahDuran DemonCratos</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Thran Veckos</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Cathor Rothai</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Imperio Jamal</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Prest Puccium</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Abaia de Bosthar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Vale do Emaranhado</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sacro Territorio de</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Desfiladeiro da dor</a>
+              </li>
+              <li class="nav-item">
+                <div class="menu-marcado">
+                <a class="nav-link active" aria-current="page" href="santo_arayo.html">Santo Arayo</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+<!-- FIM DO NAVBAR INICIO DO CONTEUDO -->
+
+
+
+
+
+<div class="box-conteudo">
+  <div class="nome_reino">
+    <h1 class="text-center">Santo Arayo</h1>
+    <h6 class="text-center">Do exilio e do pó nos erguemos</h6>
+  </div>
+
+    
+  <section>
+    <div class="conteudo-principal"></div>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <p>BIOMAS</p>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+
+
+              <!-- DESERTO -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".deserto">DESERTO</button>
+                <div class="modal fade deserto" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                   <div class="modal-content">
+                      <div class="modal-header">
+                       <h5 class="modal-title" id="exampleModalLongTitle">DESERTO</h5>
+                     </div>
+                       <div class="modal-body">
+                         <div class="img-conteudo">
+                            <img src="imagens_definitivas/santoarayo/biomas/desertob.jpg">
+                          </div>
+                          <div class="texto-conteudo">
+                            Com temperaturas extremas, os dias são escaldantes e as noites gélidas. Tempestades de areia são comuns, obscurecendo a visão e tornando a 
+                            locomoção ainda mais desafiadora, este vasto bioma pode ser comparado com um mar de areias, se sua fauna incomum não lhe matar, certamente 
+                            o ambiente irá.
+                          </div>
+                       </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              <!-- DESERTO -->
+              
+               <!-- ESPELHO D'AGUA -->
+               <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".espelho">ESPELHOS D'AGUA</button>
+                <div class="modal fade espelho" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                   <div class="modal-content">
+                      <div class="modal-header">
+                       <h5 class="modal-title" id="exampleModalLongTitle">ESPELHOS D'AGUA</h5>
+                     </div>
+                       <div class="modal-body">
+                         <div class="img-conteudo">
+                            <img src="imagens_definitivas/santoarayo/biomas/espelho.png">
+                          </div>
+                          <div class="texto-conteudo">
+                          Os espelhos d'água brilham como portais para um mundo mágico e desconhecido para os homens comuns, enquanto os sábios vivem em seu além. 
+                          Suas águas cristalinas refletem a luz do sol em um espetáculo de cores. Sobre este espetáculo de ilusões naturais criaturas intrigantes se 
+                          escondem, vivem e caçam, não somente a fauna local, mas qualquer um que seja
+                          </div>
+                       </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+               <!-- ESPELHO D'AGUA -->
+                <!-- DESERTO DE PEDRA -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".pedra">DESERTO DE PEDRA</button>
+                <div class="modal fade pedra" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                   <div class="modal-content">
+                      <div class="modal-header">
+                       <h5 class="modal-title" id="exampleModalLongTitle">DESERTO DE PEDRA</h5>
+                     </div>
+                       <div class="modal-body">
+                         <div class="img-conteudo">
+                            <img src="imagens_definitivas/santoarayo/biomas/pedra.jpg">
+                          </div>
+                          <div class="texto-conteudo">
+                            Um terreno arído e acidentado que a primeira vista é apenas habitado por rochedos pontiagudos em uma especie de floresta de pedra, anos de 
+                            erosão e desgaste as moldaram em estranhos formatos e tamanhos, alguns chegando a uivar com o vento quente do deserto, um amontoado de barulho 
+                            sem sentido que pode a confundir a mente dos desavisados
+                          </div>
+                       </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+               <!-- DESERTO DE PEDRA -->
+               <!-- OASIS -->
+               <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".oasis">OASIS</button>
+               <div class="modal fade oasis" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                 <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">OASIS</h5>
+                    </div>
+                      <div class="modal-body">
+                        <div class="img-conteudo">
+                           <img src="imagens_definitivas/santoarayo/biomas/oasis.jpg">
+                         </div>
+                         <div class="texto-conteudo">
+                          Alguns se referem a estas formações desérticas como uma dadiva divina, outros veem como uma exemplo de superação, estas formações muito citadas em 
+                          poesias e provérbios são de fato muitas vezes uma salvação para andarilhos que acabam nas imensidões dos desertos de Santo-Arayo, é inegável a 
+                          felicidade de se encontrar essas pequenas ilhas nos mares de areia.
+                         </div>
+                      </div>
+                       <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                       </div>
+                   </div>
+                 </div>
+               </div>
+              <!-- OASIS -->
+              <!-- COSTÕES ROCHOSOS -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".costoesrochosos">COSTÕES ROCHOSOS</button>
+              <div class="modal fade costoesrochosos" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                 <div class="modal-content">
+                    <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLongTitle">COSTÕES ROCHOSOS</h5>
+                   </div>
+                     <div class="modal-body">
+                       <div class="img-conteudo">
+                          <img src="imagens_definitivas/santoarayo/biomas/costoes_rochosos.jpg">
+                        </div>
+                        <div class="texto-conteudo">
+                          Grandes rochas que servem como uma muralha natural protegendo as praias da misterioso 
+                          continente de Ano Mundi, sendo um perigo frequente na vida dos marinheiros, levando a 
+                          vida de muitos e diversas embarcações.
+                        </div>
+                     </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            <!-- COSTÕES ROCHOSOS -->
+            <!-- DESERTO DE AMBAR -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".desertodeambar">DESERTO DE AMBAR</button>
+            <div class="modal fade desertodeambar" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+               <div class="modal-content">
+                  <div class="modal-header">
+                   <h5 class="modal-title" id="exampleModalLongTitle">DESERTO DE AMBAR</h5>
+                 </div>
+                   <div class="modal-body">
+                     <div class="img-conteudo">
+                        <img src="imagens_definitivas/santoarayo/biomas/deserto_de_ambar.jpg">
+                      </div>
+                      <div class="texto-conteudo">
+                        O deserto de âmbar é um local belo e mágico, onde as dunas são compostas de pequenas partículas brilhantes e translúcidas que emanam um brilho 
+                        dourado e quente sob o sol escaldante. No entanto, o lugar também é conhecido por ser um lugar misterioso com criaturas estranhas que se escondem 
+                        no espetáculo brilhante refletido por suas pedras, sempre à espreitam de viajantes desavisados.
+                      </div>
+                   </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          <!-- DESERTO DE AMBAR -->
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <p>FAUNA</p>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+               <!-- RATO-CANGURU-MARMOTA -->
+               <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".ratocangurumarmota">RATO-CANGURU-MARMOTA</button>
+               <div class="modal fade ratocangurumarmota" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                 <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">RATO-CANGURU-MARMOTA</h5>
+                    </div>
+                      <div class="modal-body">
+                        <div class="img-conteudo">
+                           <img src="imagens_definitivas/santoarayo/fauna/ratocangurumarmota.jpg">
+                         </div>
+                         <div class="texto-conteudo">
+                          Um híbrido de rato, canguru e marmota. Seu corpo é pequeno com uma pelagem castanha seus olhos são grandes com uma expressão curiosa. Ele se move saltando com facilidade e rapidez. 
+                          Um animal muito tímido que prefere ficar longe de seres humanos e outros animais maiores. Quando encurralado pode apresentar um comportamento agressivo. Podem sem encontrados em fendas 
+                          ou buracos pelo deserto, sendo muito comum na região oeste de Santo-Arayo. Comem raizes, folhas e fungos.
+                         </div>
+                      </div>
+                       <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                       </div>
+                   </div>
+                 </div>
+               </div>
+             <!-- RATO-CANGURU-MARMOTA -->
+             
+              <!-- COBRAS COMEKU -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".comeku">COBRAS COMEKU</button>
+               <div class="modal fade comeku" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                 <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">COBRAS COMEKU</h5>
+                    </div>
+                      <div class="modal-body">
+                        <div class="img-conteudo">
+                           <img src="imagens_definitivas/santoarayo/fauna/cobracomeku.jpg">
+                         </div>
+                         <div class="texto-conteudo">
+                          Essas tem suas escamas similares a pedras das regiões de onde vivem. São bastante comuns em regiões áridas, e não gostam de agua ou umidade.Se alimenta de insetos e pequenos animais, 
+                          mas no encontro de criaturas maiores que ela, podem pica-las para se proteger, porém só ataca pelas costas.Seu veneno é o pior de todos os acidos encontrados na natureza, por se alimentar 
+                          de insetos de ambar, desenvolveu um liquido extremamente corrosivo.
+                         </div>
+                      </div>
+                       <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                       </div>
+                   </div>
+                 </div>
+               </div>
+              <!-- ESPELHO D'AGUA -->
+               <!-- LARGATO DO RABO ANELADO -->
+               <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".raboanelado">LARGATO DO RABO ANELADO</button>
+               <div class="modal fade raboanelado" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                 <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">LARGATO DO RABO ANELADO</h5>
+                    </div>
+                      <div class="modal-body">
+                        <div class="img-conteudo">
+                           <img src="imagens_definitivas/santoarayo/fauna/largato.jpg">
+                         </div>
+                         <div class="texto-conteudo">
+                          É uma mutação de experimentos de cultistas do deserto.Sua cauda é extremamente longa e resistente, ele a enrola sobre seu corpo para se proteger. Se alimenta de insetos e carcaças e 
+                          seu maior inimigo é a cobra comeku. Seu rabo é sua maior arma, podendo chicotear e estrangular suas presas. Alguns comerciantes vendem joias e artefatos feitos de seu rabo anelado. 
+                          Além disso sua calda seca pode ser moida e utilizada para poções e rituais.
+                         </div>
+                      </div>
+                       <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                       </div>
+                   </div>
+                 </div>
+               </div>
+              <!-- LARGATO DO RABO ANELADO -->
+              <!-- VERME DA PEDRA -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".vermedapedra">VERME DA PEDRA</button>
+              <div class="modal fade vermedapedra" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                 <div class="modal-content">
+                    <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLongTitle">VERME DA PEDRA</h5>
+                   </div>
+                     <div class="modal-body">
+                       <div class="img-conteudo">
+                          <img src="imagens_definitivas/santoarayo/fauna/verme.jpg">
+                        </div>
+                        <div class="texto-conteudo">
+                          O verme da pedra se assemelha a uma sentopeia porém com garras e um corpo desforme. É um parasita encontrado em canions e regiões pedregosas de Santo Arayo, Se hospeda em pequenas 
+                          pedras e rochas e a utilizam de carapaça. Se alimenta de bacterias nas pedras. Pode se tornar um perigo caso parasite outro ser vivo. Os mineradores devem tomar bastante cuidado.
+                        </div>
+                     </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+             <!-- VERME DA PEDRA-->
+             <!-- TARTARUGA VELOZ SELVAGEM -->
+             <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".turtle">TARTARUGA VELOZ SELVAGEM</button>
+             <div class="modal fade turtle" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                   <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">TARTARUGA VELOZ SELVAGEM</h5>
+                  </div>
+                    <div class="modal-body">
+                      <div class="img-conteudo">
+                         <img src="imagens_definitivas/santoarayo/fauna/turtle.jpg">
+                       </div>
+                       <div class="texto-conteudo">
+                        Ainda não é compreendido como esses animais se locomovem tão rapido, pois é quase impossivel captura-las. se parece com uma tartaruga comum, com um bico bem afiado. 
+                        Se alimenta de plantas e cactos, algumas ja foram vistas comendo largatos e escorpiões. O mercado pode pagar uma boa grana por uma dessas.
+                       </div>
+                    </div>
+                     <div class="modal-footer">
+                       <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                     </div>
+                 </div>
+               </div>
+             </div>
+           <!-- TARTARUGA VELOZ SELVAGEM -->
+           <!-- INSETO DO AMBAR -->
+           <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".insetodoambar">INSETO DO AMBAR</button>
+           <div class="modal fade insetodoambar" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+             <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                 <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">INSETO DO AMBAR</h5>
+                </div>
+                  <div class="modal-body">
+                    <div class="img-conteudo">
+                       <img src="imagens_definitivas/santoarayo/fauna/inseto 2.jpg">
+                     </div>
+                     <div class="texto-conteudo">
+                      Um hibrido de uma formiga e um besouro, do tamanho de uma unha, mas as femeas podem chegar a um palmo de comprimento. Suas patas são pretas e seu corpo um dourado translucido havendo um 
+                      ferrão na lateral de seu corpo. Vivem principalmente no deserto de ambar e se alimentam de insetos e bacterias, tem uma inteligencia de colonia em niveis preocupantes. Sua picada injeta 
+                      bacterias que produzem o ambar através do calor, portanto o frio é essencial para conter ou acabar com a cristalização.
+                     </div>
+                  </div>
+                   <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                   </div>
+               </div>
+             </div>
+           </div>
+         <!-- INSETO DO AMBAR -->
+         <!-- CAVALOS SELVAGENS -->
+         <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".cavalosselvagens">CAVALOS SELVAGENS</button>
+         <div class="modal fade cavalosselvagens" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+           <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">CAVALOS SELVAGENS</h5>
+              </div>
+                <div class="modal-body">
+                  <div class="img-conteudo">
+                     <img src="imagens_definitivas/santoarayo/fauna/cavalosselvagens.jpg">
+                   </div>
+                   <div class="texto-conteudo">
+                    Os cavalos selvagens do deserto são criaturas majestosas e livres que vagam pelas vastas planícies de areia e rocha. Esses cavalos são altamente valorizados por sua beleza e velocidade, 
+                    mas também são temidos por sua natureza selvagem e indomável. Eles são capazes de viajar grandes distâncias sem água e sobreviver com pouca comida, tornando-os ideais para serem montados 
+                    por aventureiros que precisam viajar pelo deserto. No entanto, domar um cavalo selvagem do deserto é uma tarefa perigosa e desafiadora.
+                   </div>
+                </div>
+                 <div class="modal-footer">
+                   <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                 </div>
+             </div>
+           </div>
+         </div>
+       <!-- CAVALOS SELVAGENS -->
+       <!-- JAVALI DO PELO ALBINO -->
+       <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".javalialbino">JAVALI DO PELO ALBINO</button>
+       <div class="modal fade javalialbino" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+             <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">JAVALI DO PELO ALBINO</h5>
+            </div>
+              <div class="modal-body">
+                <div class="img-conteudo">
+                   <img src="imagens_definitivas/santoarayo/fauna/javali.jpg">
+                 </div>
+                 <div class="texto-conteudo">
+                  Apesar de sua aparência delicada, os javalis do pelo albino do deserto são animais extremamente fortes e resistentes.
+                  Eles também são notoriamente difíceis de caçar, já que sua pelagem branca os torna praticamente invisíveis no deserto.
+                  Alguns aventureiros procuram os javalis do pelo albino do deserto por causa de suas presas, que são altamente valorizadas por 
+                  colecionadores e artesãos. No entanto, a maioria dos habitantes do deserto prefere deixar essas criaturas em paz.
+                 </div>
+              </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+               </div>
+           </div>
+         </div>
+       </div>
+     <!-- JAVALI DO PELO ALBINO -->
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <p>FLORA</p>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="heading" data-parent="#accordion">
+            <div class="card-body">
+              
+               <!-- CACTO DO ESPINHO MOLE -->
+               <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".espinhomole">CACTO DO ESPINHO MOLE</button>
+               <div class="modal fade espinhomole" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                 <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">CACTO DO ESPINHO MOLE</h5>
+                    </div>
+                      <div class="modal-body">
+                        <div class="img-conteudo">
+                           <img src="imagens_definitivas/santoarayo/flora/cacto.jpg">
+                         </div>
+                         <div class="texto-conteudo">
+                          Este cacto é conhecido por seus espinhos serem borrachudos com agua dentro, alguns de coloração verde outros mais amarelada. Seus espinhos são vendidos como fonte de comida e 
+                          agua natural em lojas de Santo arayo.
+                         </div>
+                      </div>
+                       <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                       </div>
+                   </div>
+                 </div>
+               </div>
+             <!-- CACTO DO ESPINHO MOLE -->
+             
+              <!-- FLORES DE AMBAR -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".ambarflower">FLORES DE AMBAR</button>
+               <div class="modal fade ambarflower" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                 <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">FLORES DE AMBAR</h5>
+                    </div>
+                      <div class="modal-body">
+                        <div class="img-conteudo">
+                           <img src="imagens_definitivas/santoarayo/flora/flordeambar2.jpg">
+                         </div>
+                         <div class="texto-conteudo">
+                          As flores mais belas de Ano mundi segundo alguns, crescem no deserto de ambar, sua translucides cor de mel reflete como um vitral o sol do deserto, tendo sua essencia e aroma 
+                          eternizados no ambar e sua raiz doce. É usada para fazer vidro de ambar, e açucar dourado.
+                         </div>
+                      </div>
+                       <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                       </div>
+                   </div>
+                 </div>
+               </div>
+              <!-- FLORES DE AMBAR -->
+               <!-- ALGAS ESPELHO -->
+               <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".algasespelho">ALGAS ESPELHO</button>
+               <div class="modal fade algasespelho" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                 <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">ALGAS ESPELHO</h5>
+                    </div>
+                      <div class="modal-body">
+                        <div class="img-conteudo">
+                           <img src="imagens_definitivas/santoarayo/flora/agas3.jpg">
+                         </div>
+                         <div class="texto-conteudo">
+                          São algas pequenas que nascem no rio Vartag e nos espelhos d'agua, ela é um verde esbranquiçado e translucido. sua acides lembra vagamente o limão, seria uma boa fonte de alimento 
+                          pra quem viaja na região, se não fossem pelas cobras refratoras que se escontem por entre elas.
+                         </div>
+                      </div>
+                       <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                       </div>
+                   </div>
+                 </div>
+               </div>
+              <!-- ALGAS ESPELHO -->
+              <!-- VERME DA PEDRA -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".vermedapedra">VERME DA PEDRA</button>
+              <div class="modal fade vermedapedra" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                 <div class="modal-content">
+                    <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLongTitle">VERME DA PEDRA</h5>
+                   </div>
+                     <div class="modal-body">
+                       <div class="img-conteudo">
+                          <img src="imagens_definitivas/santoarayo/fauna/verme.jpg">
+                        </div>
+                        <div class="texto-conteudo">
+                          O verme da pedra se assemelha a uma sentopeia porém com garras e um corpo desforme. É um parasita encontrado em canions e regiões pedregosas de Santo Arayo, Se hospeda em pequenas 
+                          pedras e rochas e a utilizam de carapaça. Se alimenta de bacterias nas pedras. Pode se tornar um perigo caso parasite outro ser vivo. Os mineradores devem tomar bastante cuidado.
+                        </div>
+                     </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+             <!-- VERME DA PEDRA-->
+             <!-- TARTARUGA VELOZ SELVAGEM -->
+             <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".turtle">TARTARUGA VELOZ SELVAGEM</button>
+             <div class="modal fade turtle" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                   <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">TARTARUGA VELOZ SELVAGEM</h5>
+                  </div>
+                    <div class="modal-body">
+                      <div class="img-conteudo">
+                         <img src="imagens_definitivas/santoarayo/fauna/turtle.jpg">
+                       </div>
+                       <div class="texto-conteudo">
+                        Ainda não é compreendido como esses animais se locomovem tão rapido, pois é quase impossivel captura-las. se parece com uma tartaruga comum, com um bico bem afiado. 
+                        Se alimenta de plantas e cactos, algumas ja foram vistas comendo largatos e escorpiões. O mercado pode pagar uma boa grana por uma dessas.
+                       </div>
+                    </div>
+                     <div class="modal-footer">
+                       <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                     </div>
+                 </div>
+               </div>
+             </div>
+           <!-- TARTARUGA VELOZ SELVAGEM -->
+           <!-- INSETO DO AMBAR -->
+           <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".insetodoambar">INSETO DO AMBAR</button>
+           <div class="modal fade insetodoambar" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+             <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                 <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">INSETO DO AMBAR</h5>
+                </div>
+                  <div class="modal-body">
+                    <div class="img-conteudo">
+                       <img src="imagens_definitivas/santoarayo/fauna/inseto 2.jpg">
+                     </div>
+                     <div class="texto-conteudo">
+                      Um hibrido de uma formiga e um besouro, do tamanho de uma unha, mas as femeas podem chegar a um palmo de comprimento. Suas patas são pretas e seu corpo um dourado translucido havendo um 
+                      ferrão na lateral de seu corpo. Vivem principalmente no deserto de ambar e se alimentam de insetos e bacterias, tem uma inteligencia de colonia em niveis preocupantes. Sua picada injeta 
+                      bacterias que produzem o ambar através do calor, portanto o frio é essencial para conter ou acabar com a cristalização.
+                     </div>
+                  </div>
+                   <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                   </div>
+               </div>
+             </div>
+           </div>
+         <!-- INSETO DO AMBAR -->
+         <!-- CAVALOS SELVAGENS -->
+         <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".cavalosselvagens">CAVALOS SELVAGENS</button>
+         <div class="modal fade cavalosselvagens" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+           <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">CAVALOS SELVAGENS</h5>
+              </div>
+                <div class="modal-body">
+                  <div class="img-conteudo">
+                     <img src="imagens_definitivas/santoarayo/fauna/cavalosselvagens.jpg">
+                   </div>
+                   <div class="texto-conteudo">
+                    Os cavalos selvagens do deserto são criaturas majestosas e livres que vagam pelas vastas planícies de areia e rocha. Esses cavalos são altamente valorizados por sua beleza e velocidade, 
+                    mas também são temidos por sua natureza selvagem e indomável. Eles são capazes de viajar grandes distâncias sem água e sobreviver com pouca comida, tornando-os ideais para serem montados 
+                    por aventureiros que precisam viajar pelo deserto. No entanto, domar um cavalo selvagem do deserto é uma tarefa perigosa e desafiadora.
+                   </div>
+                </div>
+                 <div class="modal-footer">
+                   <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                 </div>
+             </div>
+           </div>
+         </div>
+       <!-- CAVALOS SELVAGENS -->
+       <!-- JAVALI DO PELO ALBINO -->
+       <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".javalialbino">JAVALI DO PELO ALBINO</button>
+       <div class="modal fade javalialbino" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+             <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">JAVALI DO PELO ALBINO</h5>
+            </div>
+              <div class="modal-body">
+                <div class="img-conteudo">
+                   <img src="imagens_definitivas/santoarayo/fauna/javali.jpg">
+                 </div>
+                 <div class="texto-conteudo">
+                  Apesar de sua aparência delicada, os javalis do pelo albino do deserto são animais extremamente fortes e resistentes.
+                  Eles também são notoriamente difíceis de caçar, já que sua pelagem branca os torna praticamente invisíveis no deserto.
+                  Alguns aventureiros procuram os javalis do pelo albino do deserto por causa de suas presas, que são altamente valorizadas por 
+                  colecionadores e artesãos. No entanto, a maioria dos habitantes do deserto prefere deixar essas criaturas em paz.
+                 </div>
+              </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+               </div>
+           </div>
+         </div>
+       </div>
+     <!-- JAVALI DO PELO ALBINO -->
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <p>CIDADES</p>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingSix">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                <p>FORÇAS ARMADAS</p>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingSeven">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                <p>RELIGIÃO</p>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingEight">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                <p>FAMILIAS</p>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingNine">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                <p>EVENTOS</p>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingTen">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                <p>COMIDA</p>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingEleven">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                <p>TRABALHOS</p>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        
+        </div><div class="card">
+          <div class="card-header" id="headingTwelve">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                <p>LENDAS</p>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+      </div>
+     
+
+
+
+
+    </section>
+  </div>
+
+
+
+<!-- FIM DO CONTEUDO INICIO DO FOOTER -->
+</body>
+</html>
